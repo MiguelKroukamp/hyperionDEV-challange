@@ -1,0 +1,244 @@
+html {
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+  
+/* navbar styling starts here */
+nav {
+    border-bottom: solid green 1px;
+    margin-bottom: 2em;
+    padding: 0 1em 0 1em;
+}
+/* top half of the navbat */
+.navTop {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.navTop a {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+.navTop img {
+    height: 5em;
+    width: auto;
+}
+.navTop .loginBtn {
+    font-size: 1.5em;
+    display: inline-grid;
+}
+.navTop .loginBtn button {
+    background-color: transparent;
+    border: solid green 1px;
+    font-size: 0.800em
+}
+.searchBar input {
+    width: 30em;
+    background-color: rgba(127, 253, 123, 0.356);
+    text-align: center;
+    font-size: 1.5em;
+    border: none;
+}
+.searchBar button {
+    font-size: 1.5em;
+    border: none;
+    background-color: rgba(127, 253, 123, 0.356);
+}
+/* bottom half of the nav */
+.navBottom {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+    font-weight: 600;
+    position: sticky;
+    top: 0;
+}
+.navBottom a {
+    text-decoration: none;
+    padding: 0 0.500em 0 0.500em;
+    color: green;
+}
+/* navabar styling ends here */
+
+
+/* first slides content styling starts here */
+#slideshow {
+  overflow: hidden;
+  height: 80vh;
+  width: 100%;
+  margin: 0 auto;
+}
+.slide-wrapper {
+  width: 2912px;
+  -webkit-animation: slide 10s ease infinite;
+}
+.slide {
+  float: left;
+  height: 510px;
+  width: 728px;
+}
+.slide:nth-child(1) {
+  background: #D93B65;
+}
+.slide:nth-child(2) {
+  background: #037E8C;
+}
+.slide:nth-child(3) {
+  background: #36BF66;
+}
+.slide:nth-child(4) {
+  background: #D9D055;
+}
+.slide-number {
+  color: #000;
+  text-align: center;
+  font-size: 10em;
+}
+@-webkit-keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -728px;}
+    50% {margin-left: -728px;}
+    60% {margin-left: -1456px;}
+    70% {margin-left: -1456px;}
+    80% {margin-left: -2184px;}
+    90% {margin-left: -2184px;}
+}
+/* first slides content styling ends here */
+
+/* about section styling starts here */
+.about {
+    background: #D93B65;
+    padding: 2em;
+}
+.aboutContent {
+    margin: auto;
+    width: 80%;
+}
+/* about section styling ends here */
+
+
+/* shopping section styling starts here */
+.stars .checked {
+    color: orange;
+    margin-top: 1em; 
+}
+.shoppingHeading {
+    border-bottom: solid green 1px;
+}
+.shoppingItems {
+    margin: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 2em;
+    overflow-x: hidden;
+    padding: 2em;
+}
+.shoppingItems .items {
+    border: solid green 1px;
+    padding: 1em;
+    background-color: rgba(127, 253, 123, 0.356);
+}
+
+.shoppingItems img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2em; 
+}
+
+.shoppingItems button {
+    background-color: transparent;
+    border: solid black 1px;
+}
+/* shopping section styling ends here */
+
+
+/* second slides section starts here */
+#slideshow2 {
+    overflow: hidden;
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+    border-top: solid yellow 1px;
+    border-bottom: solid yellow 1px;
+
+}
+.slide-wrapper2 {
+    width: 2912px;
+    -webkit-animation: slide 10s ease infinite;
+}
+.slide2 {
+    float: left;
+    height: auto;
+    width: 10%;
+    padding: 1em;
+    background: #D9D055;
+}
+.slide2 img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2em; 
+}
+.slide2 button {
+    background-color: transparent;
+    border: solid black 1px;
+}
+@-webkit-keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -728px;}
+    50% {margin-left: -728px;}
+    60% {margin-left: -1456px;}
+    70% {margin-left: -1456px;}
+    80% {margin-left: -2184px;}
+    90% {margin-left: -2184px;}
+}
+/* second slides section starts here */
+
+
+/* footer starts here */
+footer {
+    background-color: rgba(127, 253, 123, 0.356);
+}
+.footerTop {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 80%;
+    text-align: left;
+}
+.footerTop .logo {
+    display: grid;
+}
+.footerTop img {
+    height: 10em;
+    width: auto;
+}
+.footerBottom {
+    background-color: black;
+    color: black;
+}
+.socialNet {
+    display: flex;
+    justify-content: space-evenly;    
+    font-size: 2em;
+    color: black;
+    width: 50%;
+    margin: auto;
+    padding: 0.500em;
+}
+.socialNet i {
+    color: white;
+}
+.copyRight {
+    padding: 0.500em;
+}
+.copyRight a {
+    text-decoration: none;
+    color: black;
+}
+/* footer ends here */
